@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 text-gray-800">
       {/* About Section */}
       <section className="p-10 text-center bg-white shadow-md">
-        <h1 className="text-4xl font-bold">John Doe</h1>
+        <h1 className="text-4xl font-bold">Aldi Denaldi</h1>
         <p className="text-lg text-gray-600">Full Stack Developer</p>
       </section>
 
