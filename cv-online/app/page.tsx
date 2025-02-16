@@ -13,14 +13,15 @@ export default function Home() {
         {/* Hero Section */}
         <section className="text-center py-16">
           <div className="flex justify-center">
-            <Image 
-              src="/aldi.jpg" 
-              alt="Aldi Denaldi Profile Picture"
-              width={160} 
-              height={160} 
-              className="rounded-full shadow-lg border-4 border-white"
-              priority
-            />
+          <Image 
+  src="/aldi.png" 
+  alt="Profile"
+  width={160} 
+  height={160} 
+  className="rounded-full shadow-lg border-4 border-white"
+  priority
+/>
+
           </div>
           <h1 className="text-3xl font-bold mt-4">Aldi Denaldi</h1>
           <p className="text-white/80 text-lg">Prodi Sistem Informasi</p>
