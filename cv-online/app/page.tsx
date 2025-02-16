@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Mail, Phone, Briefcase, Code, User, Star, Send } from "lucide-react";
 
 export default function Home() {
@@ -5,17 +6,21 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 text-white">
       {/* Navbar */}
       <nav className="bg-white text-blue-600 p-4 text-center text-xl font-bold shadow-lg">
-        My  CV
+        My CV
       </nav>
 
       {/* Hero Section */}
       <section className="text-center py-16">
-      <img 
-  src="/aldi.jpg" 
-  alt="Profile"
-  className="w-40 h-40 mx-auto rounded-full shadow-lg border-4 border-white"
-/>
-
+        <div className="flex justify-center">
+          <Image 
+            src="/aldi.jpg" 
+            alt="Profile"
+            width={160} 
+            height={160} 
+            className="rounded-full shadow-lg border-4 border-white"
+            priority
+          />
+        </div>
         <h1 className="text-3xl font-bold mt-4">Aldi Denaldi</h1>
         <p className="text-white/80 text-lg">Prodi Sistem Informasi</p>
       </section>
