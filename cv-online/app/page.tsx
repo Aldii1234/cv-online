@@ -10,11 +10,12 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="text-center py-16">
-        <img
-          src="/public/aldi.jpg"
-          alt="Profile"
-          className="w-40 h-40 mx-auto rounded-full shadow-lg border-4 border-white"
-        />
+      <img 
+  src="/aldi.jpg" 
+  alt="Profile"
+  className="w-40 h-40 mx-auto rounded-full shadow-lg border-4 border-white"
+/>
+
         <h1 className="text-3xl font-bold mt-4">Aldi Denaldi</h1>
         <p className="text-white/80 text-lg">Prodi Sistem Informasi</p>
       </section>
