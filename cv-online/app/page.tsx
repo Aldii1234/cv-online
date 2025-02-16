@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="text-center py-16">
         <img
-          src="/profile.jpg"
+          src="/public/aldi.jpg"
           alt="Profile"
           className="w-40 h-40 mx-auto rounded-full shadow-lg border-4 border-white"
         />
