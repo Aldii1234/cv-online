@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex justify-center">
           <Image 
   src="/aldi.jpg" 
-  alt="Profile"
+  alt="Aldi Denaldi"
   width={160} 
   height={160} 
   className="rounded-full shadow-lg border-4 border-white"
