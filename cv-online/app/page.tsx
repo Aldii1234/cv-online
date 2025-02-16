@@ -14,7 +14,7 @@ export default function Home() {
         <section className="text-center py-16">
           <div className="flex justify-center">
           <Image 
-  src="/aldi.png" 
+  src="/aldi.jpg" 
   alt="Profile"
   width={160} 
   height={160} 
