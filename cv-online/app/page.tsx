@@ -9,85 +9,87 @@ export default function Home() {
         My CV
       </nav>
 
-      {/* Hero Section */}
-      <section className="text-center py-16">
-        <div className="flex justify-center">
-          <Image 
-            src="/aldi.jpg" 
-            alt="Profile"
-            width={160} 
-            height={160} 
-            className="rounded-full shadow-lg border-4 border-white"
-            priority
-          />
-        </div>
-        <h1 className="text-3xl font-bold mt-4">Aldi Denaldi</h1>
-        <p className="text-white/80 text-lg">Prodi Sistem Informasi</p>
-      </section>
-
-      {/* About Section */}
-      <section className="p-8 bg-white shadow-lg rounded-lg mx-4 text-gray-800">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <User size={24} /> About Me
-        </h2>
-        <p className="mt-2">
-          Saya adalah pengembang web dengan pengalaman dalam Next.js dan Tailwind CSS.
-          Saya menyukai desain modern dan UX yang menarik.
-        </p>
-      </section>
-
-      {/* Skills Section */}
-      <section className="p-8 mx-4 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Code size={24} /> Skills
-        </h2>
-        <ul className="mt-2 list-disc pl-5">
-          <li>JavaScript / TypeScript</li>
-          <li>React & Next.js</li>
-          <li>Tailwind CSS</li>
-          <li>Node.js & Express</li>
-        </ul>
-      </section>
-
-      {/* Services Section */}
-      <section className="p-8 bg-white shadow-lg rounded-lg mx-4 mt-4 text-gray-800">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Briefcase size={24} /> Services
-        </h2>
-        <p className="mt-2">Saya menawarkan layanan pembuatan website modern dan responsif.</p>
-      </section>
-
-      {/* Portfolio Section */}
-      <section className="p-8 mx-4 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Star size={24} /> Portfolio
-        </h2>
-        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-            <p>Project 1</p>
+      <div className="container mx-auto max-w-4xl p-4">
+        {/* Hero Section */}
+        <section className="text-center py-16">
+          <div className="flex justify-center">
+            <Image 
+              src="/aldi.jpg" 
+              alt="Aldi Denaldi Profile Picture"
+              width={160} 
+              height={160} 
+              className="rounded-full shadow-lg border-4 border-white"
+              priority
+            />
           </div>
-          <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-            <p>Project 2</p>
-          </div>
-        </div>
-      </section>
+          <h1 className="text-3xl font-bold mt-4">Aldi Denaldi</h1>
+          <p className="text-white/80 text-lg">Prodi Sistem Informasi</p>
+        </section>
 
-      {/* Contact Section */}
-      <section className="p-8 bg-white shadow-lg rounded-lg mx-4 mt-4 text-gray-800">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Send size={24} /> Contact
-        </h2>
-        <p className="mt-2 flex items-center gap-2">
-          <Mail size={20} /> denaldialdi4@email.com
-        </p>
-        <p className="mt-2 flex items-center gap-2">
-          <Phone size={20} /> +62 812-3456-7890
-        </p>
-      </section>
+        {/* About Section */}
+        <section className="p-6 bg-white shadow-lg rounded-lg text-gray-800">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <User size={24} /> About Me
+          </h2>
+          <p className="mt-2">
+            Saya adalah pengembang web dengan pengalaman dalam Next.js dan Tailwind CSS.
+            Saya menyukai desain modern dan UX yang menarik.
+          </p>
+        </section>
+
+        {/* Skills Section */}
+        <section className="p-6 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <Code size={24} /> Skills
+          </h2>
+          <ul className="mt-2 list-disc pl-5">
+            <li>JavaScript / TypeScript</li>
+            <li>React & Next.js</li>
+            <li>Tailwind CSS</li>
+            <li>Node.js & Express</li>
+          </ul>
+        </section>
+
+        {/* Services Section */}
+        <section className="p-6 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <Briefcase size={24} /> Services
+          </h2>
+          <p className="mt-2">Saya menawarkan layanan pembuatan website modern dan responsif.</p>
+        </section>
+
+        {/* Portfolio Section */}
+        <section className="p-6 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <Star size={24} /> Portfolio
+          </h2>
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
+              <p>Project 1</p>
+            </div>
+            <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
+              <p>Project 2</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Section */}
+        <section className="p-6 mt-4 bg-white shadow-lg rounded-lg text-gray-800">
+          <h2 className="text-2xl font-bold flex items-center gap-2">
+            <Send size={24} /> Contact
+          </h2>
+          <p className="mt-2 flex items-center gap-2">
+            <Mail size={20} /> denaldialdi4@email.com
+          </p>
+          <p className="mt-2 flex items-center gap-2">
+            <Phone size={20} /> +62 812-3456-7890
+          </p>
+        </section>
+      </div>
 
       {/* Footer */}
-      <footer className="text-center text-white/80 text-sm py-4">
-        © Aldi Denaldi. All rights reserved.
+      <footer className="text-center text-white/80 text-sm py-4 mt-6">
+        © {new Date().getFullYear()} Aldi Denaldi. All rights reserved.
       </footer>
     </div>
   );
