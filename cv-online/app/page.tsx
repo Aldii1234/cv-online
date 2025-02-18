@@ -91,10 +91,10 @@ export default function Home() {
           </h2>
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-              {/* <p>Project 1</p>
+              <p>Project 1</p>
             </div>
             <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-              <p>Project 2</p> */}
+              <p>Project 2</p>
             </div>
           </div>
         </section>
@@ -108,7 +108,7 @@ export default function Home() {
             <Mail size={20} /> denaldialdi4@email.com
           </p>
           <p className="mt-2 flex items-center gap-2">
-            <Phone size={20} /> +62 812-3456-7890
+            <Phone size={20} /> +62 831-0964-3743
           </p>
         </section>
       </div>
