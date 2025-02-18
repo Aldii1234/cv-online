@@ -91,10 +91,10 @@ export default function Home() {
           </h2>
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-              <p>Project 1</p>
+              {/* <p>Project 1</p>
             </div>
             <div className="bg-gray-300 h-40 flex items-center justify-center rounded-lg shadow-md">
-              <p>Project 2</p>
+              <p>Project 2</p> */}
             </div>
           </div>
         </section>
